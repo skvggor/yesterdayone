@@ -1,0 +1,46 @@
+{
+  "name": "yesterdayone",
+  "version": "1.0.0",
+  "description": "Get the yesterday from the date",
+  "engines": {
+    "node": ">=9.0.0"
+  },
+  "xo": {
+    "semicolon": false
+  },
+  "ava": {
+    "require": [
+      "esm"
+    ]
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/xo/cli.js index.js && ./node_modules/.bin/ava --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcker/yesterdayone.git"
+  },
+  "keywords": [
+    "date",
+    "datetime",
+    "nodejs",
+    "micropackage",
+    "yesterday",
+    "javascript"
+  ],
+  "author": "marcker <marckfree@gmail.com> (http://marcker.herokuapp.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcker/yesterdayone/issues"
+  },
+  "homepage": "https://github.com/marcker/yesterdayone#readme",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "esm": "^3.0.28",
+    "xo": "^0.20.3"
+  },
+  "dependencies": {
+    "dateformat": "^3.0.3"
+  }
+}
