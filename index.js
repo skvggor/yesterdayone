@@ -9,4 +9,4 @@ function yesterdayone(timestamp, format) {
 	return dateformat(date, format)
 }
 
-export default yesterdayone
+module.exports = yesterdayone
