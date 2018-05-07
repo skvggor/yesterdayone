@@ -1,5 +1,5 @@
 'use strict'
-import dateformat from 'dateformat'
+const dateformat = require('dateformat')
 
 function yesterdayone(timestamp, format) {
 	const date = new Date(timestamp)
