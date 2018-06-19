@@ -15,7 +15,7 @@ npm i yesterdayone
 Run:
 
 ```js
-const yesterday = rewquire('yesterdayone')
+const yesterday = require('yesterdayone')
 
 yesterday(new Date(), 'dd-mm-yyyy') // '03-05-2018'
 yesterday('2018-05-04T18:31:17.594Z', 'yyyy-mm-dd') // '2018-05-03'
